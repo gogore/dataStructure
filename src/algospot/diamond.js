@@ -1,3 +1,6 @@
+/**
+ * 다이아 몬드 찍기
+ */
 (function(maxWidth){
    var space = new Array(Math.ceil(maxWidth / 2));
    var star = "*";
