@@ -6,17 +6,17 @@ public class Mercy {
         int i, j, temp;
 
         for (i = 0; i < index.length - 1; i++) {
-          for (j = 0; j < index.length - 1 - i; j++) {
-            if (index[j] > index[j + 1]) {
-              temp = index[j];
-              index[j] = index[j + 1];
-              index[j + 1] = temp;
+            for (j = 0; j < index.length - 1 - i; j++) {
+                if (index[j] > index[j + 1]) {
+                    temp = index[j];
+                    index[j] = index[j + 1];
+                    index[j + 1] = temp;
+                }
             }
-          }
         }
 
         for (i = 0; i < index.length; i++) {
-          System.out.print(index[i] + " ");
+            System.out.print(index[i] + " ");
         }
     }
 }
