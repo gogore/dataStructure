@@ -30,6 +30,5 @@
 		sort(array, left, high - 1);
 		sort(array, high + 1, right);
 	}
-	;
 	sort(array, 0, array.length - 1);
 })([ 93, 2, 1, 10 ]);
